@@ -219,8 +219,8 @@ footer{border-top:1px solid var(--border);padding:1.5rem 3rem;display:flex;justi
 <!-- SKILLS -->
 <section id="skills" class="wrap alt">
   <div class="sec-head"><span class="sec-n">01 //</span><h2 class="sec-t">Skills</h2><div class="sec-ln"></div></div>
-  <div class="skills-wrap">
-    <div style="display:flex;flex-direction:column;align-items:center;">
+  <div style="display:flex;flex-direction:column;gap:0;">
+    <div style="display:flex;flex-direction:column;align-items:center;margin-bottom:2.5rem;">
       <svg class="radar-svg" viewBox="0 0 400 380" xmlns="http://www.w3.org/2000/svg">
         <defs><radialGradient id="rg" cx="50%" cy="50%" r="50%"><stop offset="0%" stop-color="#52b7ff" stop-opacity="0.18"/><stop offset="100%" stop-color="#52b7ff" stop-opacity="0.02"/></radialGradient></defs>
         <g transform="translate(200,195)">
@@ -237,27 +237,44 @@ footer{border-top:1px solid var(--border);padding:1.5rem 3rem;display:flex;justi
           <circle cx="-89" cy="46" r="3.5" fill="#52b7ff" opacity="0"><animate attributeName="opacity" from="0" to="1" dur=".5s" begin="1.2s" fill="freeze"/></circle>
           <circle cx="-106" cy="-51" r="3.5" fill="#52b7ff" opacity="0"><animate attributeName="opacity" from="0" to="1" dur=".5s" begin="1.3s" fill="freeze"/></circle>
           <text x="0" y="-142" text-anchor="middle" fill="#52b7ff" font-family="JetBrains Mono,monospace" font-size="10">KINEMATICS</text>
-          <text x="125" y="-60" text-anchor="start" fill="#5a6480" font-family="JetBrains Mono,monospace" font-size="10">PYTHON</text>
-          <text x="120" y="74" text-anchor="start" fill="#5a6480" font-family="JetBrains Mono,monospace" font-size="10">C / C++</text>
-          <text x="0" y="154" text-anchor="middle" fill="#5a6480" font-family="JetBrains Mono,monospace" font-size="10">ROS / ROS2</text>
-          <text x="-120" y="74" text-anchor="end" fill="#5a6480" font-family="JetBrains Mono,monospace" font-size="10">MATLAB</text>
-          <text x="-120" y="-58" text-anchor="end" fill="#5a6480" font-family="JetBrains Mono,monospace" font-size="10">CONTROL TH.</text>
+          <text x="125" y="-60" text-anchor="start" fill="#52b7ff" font-family="JetBrains Mono,monospace" font-size="10">PYTHON</text>
+          <text x="120" y="74" text-anchor="start" fill="#52b7ff" font-family="JetBrains Mono,monospace" font-size="10">C / C++</text>
+          <text x="0" y="154" text-anchor="middle" fill="#52b7ff" font-family="JetBrains Mono,monospace" font-size="10">ROS / ROS2</text>
+          <text x="-120" y="74" text-anchor="end" fill="#52b7ff" font-family="JetBrains Mono,monospace" font-size="10">MATLAB</text>
+          <text x="-120" y="-58" text-anchor="end" fill="#52b7ff" font-family="JetBrains Mono,monospace" font-size="10">CONTROL TH.</text>
         </g>
       </svg>
     </div>
-    <div>
-      <div class="bars-wrap" id="skillBars">
-        <div class="bar-item"><div class="bar-top"><span class="bar-name">Kinematic Modeling (DGM/IGM)</span><span class="bar-pct">95%</span></div><div class="bar-track"><div class="bar-fill fill-c" data-w="95"></div></div></div>
-        <div class="bar-item"><div class="bar-top"><span class="bar-name">Python — NumPy / SciPy</span><span class="bar-pct">92%</span></div><div class="bar-track"><div class="bar-fill fill-c" data-w="92"></div></div></div>
-        <div class="bar-item"><div class="bar-top"><span class="bar-name">Control Theory & State-Space</span><span class="bar-pct">90%</span></div><div class="bar-track"><div class="bar-fill fill-c" data-w="90"></div></div></div>
-        <div class="bar-item"><div class="bar-top"><span class="bar-name">MATLAB / Simulink</span><span class="bar-pct">88%</span></div><div class="bar-track"><div class="bar-fill fill-o" data-w="88"></div></div></div>
-        <div class="bar-item"><div class="bar-top"><span class="bar-name">V-Model / V&V / Functional Safety</span><span class="bar-pct">85%</span></div><div class="bar-track"><div class="bar-fill fill-g" data-w="85"></div></div></div>
-        <div class="bar-item"><div class="bar-top"><span class="bar-name">ROS / ROS2</span><span class="bar-pct">80%</span></div><div class="bar-track"><div class="bar-fill fill-g" data-w="80"></div></div></div>
-        <div class="bar-item"><div class="bar-top"><span class="bar-name">C / C++ (OOP)</span><span class="bar-pct">75%</span></div><div class="bar-track"><div class="bar-fill fill-o" data-w="75"></div></div></div>
+    <div style="display:flex;flex-direction:column;gap:1.8rem;">
+      <div>
+        <div class="tg-label">Programming & Scripting</div>
+        <div class="tg-tags">
+          <span class="tg">Python</span><span class="tg">NumPy</span><span class="tg">SciPy</span><span class="tg">Matplotlib</span><span class="tg">C</span><span class="tg">C++</span><span class="tg">MATLAB</span><span class="tg">Simulink</span>
+        </div>
       </div>
-      <div class="tag-groups">
-        <div><div class="tg-label">Robotics & Mathematics</div><div class="tg-tags"><span class="tg">Jacobian Matrices</span><span class="tg">Differential Evolution</span><span class="tg">Kalman Filtering</span><span class="tg">Singularity-Robust IK</span><span class="tg">Path Planning</span></div></div>
-        <div><div class="tg-label">Systems & Quality</div><div class="tg-tags"><span class="tg">Virtual Commissioning</span><span class="tg">Root-Cause Analysis</span><span class="tg">GD&T Standards</span><span class="tg">FAT / FAI</span><span class="tg">Lean Six Sigma</span></div></div>
+      <div>
+        <div class="tg-label">Robotics & Control</div>
+        <div class="tg-tags">
+          <span class="tg">Kinematic Modeling (DGM/IGM)</span><span class="tg">Jacobian Analysis</span><span class="tg">Singularity-Robust IK</span><span class="tg">Differential Evolution</span><span class="tg">Kalman Filtering</span><span class="tg">State-Space Control</span><span class="tg">Lyapunov Stability</span><span class="tg">Path Planning</span><span class="tg">ROS / ROS2</span>
+        </div>
+      </div>
+      <div>
+        <div class="tg-label">Simulation & Digital Tools</div>
+        <div class="tg-tags">
+          <span class="tg">Virtual Commissioning</span><span class="tg">ODE Solvers (LSODA · BDF · Radau)</span><span class="tg">CATIA</span><span class="tg">Siemens NX</span><span class="tg">Robcad</span><span class="tg">SAP RPA</span>
+        </div>
+      </div>
+      <div>
+        <div class="tg-label">Systems Engineering & Quality</div>
+        <div class="tg-tags">
+          <span class="tg">V-Model / V&V</span><span class="tg">Functional Safety</span><span class="tg">GD&T Standards</span><span class="tg">FAT / FAI</span><span class="tg">Root-Cause Analysis</span><span class="tg">Tolerance Stack-up</span><span class="tg">Lean Six Sigma</span><span class="tg">SPC</span>
+        </div>
+      </div>
+      <div>
+        <div class="tg-label">Languages</div>
+        <div class="tg-tags">
+          <span class="tg">English — Fluent</span><span class="tg">French — Professional</span><span class="tg">Tamil — Native</span><span class="tg">Hindi — Conversational</span>
+        </div>
       </div>
     </div>
   </div>
